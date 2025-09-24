@@ -1,7 +1,7 @@
 ﻿# Machine Learning Query Language (MQL) 
 Implemention of a Declarative Query Language for High Level Machine Learning Application Design 
 
-## Technology used
+## Used Technology
 - Python 3.11 (required)
 - JAVA runtime
 - ReactJS
@@ -15,7 +15,7 @@ firstly clone this repositoroy by
 git clone "https://github.com/smart-db-lab/mql.git"
 ```
 
-**for database setup:** 
+**Database setup:** 
 - install postgresql and login
 - create a postgres database 
 <!-- using command prompt <**psql**>  -->
@@ -328,7 +328,12 @@ If the image does not display, [download it here](./all_report/output-10-report.
         Best algorthm selection using AutoML
 -->
 
-
+## AutoML Technology
+- PyCaret
+- TPOT (Tree-based Pipeline Optimization Tool)
+- FLAML (Fast Lightweight AutoML)
+- H2O.ai
+- Autosklearn (Linux environment required)
 
 ## Important Notes and Cautions
 
@@ -345,6 +350,7 @@ If the image does not display, [download it here](./all_report/output-10-report.
 - Column names must match exactly as they appear in your database
 
 - Ensure your database connection is active before running queries
+
 
 
 
